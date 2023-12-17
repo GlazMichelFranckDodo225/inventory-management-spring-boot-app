@@ -14,6 +14,8 @@ import java.time.Instant;
 public class Sale {
     @Id @GeneratedValue
     private Long id;
+    private String code;
+    private String comment;
     @CreatedDate
     @Column(name = "created_date", nullable = false)
     @JsonIgnore
@@ -22,8 +24,6 @@ public class Sale {
     @Column(name = "last_modified_date")
     @JsonIgnore
     private Instant lastModifiedDate;
-    private String code;
     @Column(name = "sale_date")
     private Instant saleDate;
-    private String comment;
 }

@@ -1,4 +1,4 @@
-package com.dgmf.Utility;
+package com.dgmf.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

@@ -12,8 +12,8 @@ import java.time.Instant;
 @Data @NoArgsConstructor @AllArgsConstructor @Builder
 public class StockMovementDto {
     private Long id;
-    private Instant stockMvtDate;
     private BigDecimal quantity;
+    private Instant stockMvtDate;
     private ArticleDto articleDto;
     private StockMovementType stockMvtType;
 }
