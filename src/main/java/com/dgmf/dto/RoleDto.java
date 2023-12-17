@@ -1,9 +1,5 @@
 package com.dgmf.dto;
 
-import com.dgmf.entity.User;
-import jakarta.persistence.Column;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

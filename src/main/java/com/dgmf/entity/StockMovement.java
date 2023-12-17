@@ -1,6 +1,5 @@
 package com.dgmf.entity;
 
-import com.dgmf.Utility.AbstractEntity;
 import com.dgmf.Utility.StockMovementType;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

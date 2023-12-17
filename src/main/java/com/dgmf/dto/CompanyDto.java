@@ -1,6 +1,5 @@
 package com.dgmf.dto;
 
-import com.dgmf.entity.Company;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

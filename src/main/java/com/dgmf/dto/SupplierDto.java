@@ -1,8 +1,5 @@
 package com.dgmf.dto;
 
-import com.dgmf.entity.SupplierOrder;
-import jakarta.persistence.Column;
-import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

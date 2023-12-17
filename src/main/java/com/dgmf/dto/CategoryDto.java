@@ -1,6 +1,5 @@
 package com.dgmf.dto;
 
-import com.dgmf.entity.Category;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
