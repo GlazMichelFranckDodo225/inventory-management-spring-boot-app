@@ -2,7 +2,10 @@ package com.dgmf.Utility;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -12,7 +15,7 @@ import java.time.Instant;
 
 // Derived Classes must have the
 // annotation "@EqualsAndHashCode(callSuper = true)"
-@Data
+@Data @NoArgsConstructor @AllArgsConstructor
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 public class AbstractEntity implements Serializable {
